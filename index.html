@@ -117,6 +117,23 @@ header p{
   background-size:300% 300%;
   animation:shineMove 6s ease-in-out infinite;
   box-shadow:0 15px 45px rgba(156,124,56,0.25);
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.luxury-bar span{
+  position:relative;
+  z-index:2;
+  font-family:'Playfair Display',serif;
+  font-size:20px;
+  font-weight:600;
+  letter-spacing:1px;
+  color:#2D241E;
 }
 
 @keyframes shineMove{
@@ -240,6 +257,7 @@ footer{
   header p{font-size:14px;}
   .product-img{height:140px;}
   h2{font-size:22px;}
+  .luxury-bar span{font-size:15px;padding:0 10px;}
 }
 </style>
 </head>
@@ -250,7 +268,11 @@ footer{
   <div class="hero">
     <h1>SHAN – FAGO</h1>
     <p>Tinh hoa quà tặng Việt — Trà Shan Tuyết cổ thụ & Rượu Tam Giác Mạch Hà Giang</p>
-    <div class="luxury-bar"></div>
+
+    <div class="luxury-bar">
+      <span>Shan-Fago – Trao giá trị, Gửi trân quý.</span>
+    </div>
+
   </div>
 </header>
 
@@ -313,6 +335,4 @@ footer{
 </footer>
 
 </body>
-
 </html>
-
